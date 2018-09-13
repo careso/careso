@@ -1,0 +1,73 @@
+
+body {
+	font-family: abel;
+	background: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top, .bottom {
+	background: white;
+}
+
+.top {
+	height: 105px;
+	padding: 25px;
+}
+
+	.top img.logo {
+		height: 50px;
+	}
+	
+.bottom {
+	font-size: 12px;
+	font-weight: 400;
+	padding: 25px;
+}
+	.bottom .right {
+		float: right;
+		text-align: right;
+	}
+	
+	.bottom .right ul {
+		list-style: none;
+	}
+		.bottom .right ul li {
+			float: right;
+			font-size: 20px;
+			color: #555555;
+			margin-left: 20px;
+		}
+		.bottom .right ul li a, .bottom .right ul li a:visited {
+			color: #555555;
+		}
+
+.maincontent {
+	background-image: url('./images/bio-3019504_1920-smaller.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 562px;
+	
+	 
+}
+
+.main-inner {
+	background-color: rgba(0,0,0,0.64);
+	margin: auto;
+	padding: 2%;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	line-height: 32.4px;
+}
+
+	.main-inner h1 {
+		font-size: 40px;
+		font-weight: 700;
+	}
+	.main-inner h2 {
+		font-size: 40px;
+		font-weight: 400;
+	}
+
+
